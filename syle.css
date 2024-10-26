@@ -1,0 +1,58 @@
+body {
+    color: red;
+    background: black;
+    margin: 0px;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+header {
+       border-bottom: solid 2px red;
+       padding: 10px;
+    font-size: 28px;
+}
+
+
+.chamada {
+     background: darkblue;  
+    padding-bottom: 47px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-1 {
+     margin-right: 17%;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.chamada-2 {
+    display: flex;
+    overflow-x: auto;
+    gap: 22px;
+}
+
+.category {
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.chamada-2 img {
+  opacity: 0.55;
+   height: 225px;
+}
+
+.chamada-2 img:hover{
+  opacity: 1.0;
+  border: 1px solid blueviolet;
+}
+
+;.category h2 {
+    color: orangered;
+}
